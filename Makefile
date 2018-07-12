@@ -1,7 +1,6 @@
 CC=gcc
 SRC=converter.c
-#LDFLAGS=-lpthread -lX11
-#CFLAGS=-g -pthread
+LDFLAGS=-lX11
 BIN=converter
 
 all: ${BIN}
