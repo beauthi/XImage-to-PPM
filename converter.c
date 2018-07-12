@@ -43,5 +43,5 @@ int converter(XImage *image, char* filename)
 
 int main(int argc, char* argv[])
 {
-    converter(NULL, "out.bpm");
+    converter(NULL, "out.ppm");
 }
